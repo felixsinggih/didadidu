@@ -10,4 +10,6 @@ class Service extends Model
     use HasFactory;
 
     protected $table = 'dd_services';
+
+    protected $guarded = ['id'];
 }

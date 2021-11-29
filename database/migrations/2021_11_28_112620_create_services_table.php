@@ -18,8 +18,8 @@ class CreateServicesTable extends Migration
             $table->string('name', 15);
             $table->integer('price');
             $table->string('type', 15);
-            $table->string('caption', 150);
-            $table->text('specs')->nullable();
+            $table->string('caption', 150)->nullable();
+            $table->text('specs');
             $table->timestamps();
         });
     }

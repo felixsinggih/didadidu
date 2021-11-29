@@ -31,6 +31,10 @@ class RegisterController extends Controller
         $validData['password'] = Hash::make($validData['password']);
         $request->file('ktp')->store('uploads/images');
 
+        if ($request->file('ktp')) {
+            $validData['ktp'] = $request->file('ktp')->store('uploads/images');
+        }
+
         User::create($validData);
 
         return redirect('/login')->with('success', 'Registrasi berhasil, silahkan masuk ke akun anda.');

@@ -2,11 +2,11 @@
     <div class="footer container-xxl mx-auto position-relative p-0">
         <div class="list-footer">
             <div class="row gap-md-0 gap-3">
-                <div class="col-lg-6 col-md-6">
+                <div class="col-lg-6 col-md-12">
                     <div class="list-space">
                         <img src="/assets/img/didadidu.png" height="60px" alt="" />
                     </div>
-                    <p class="text-white col-lg-11 col-md-12">
+                    <p class="text-white col-12">
                         Kami adalah sekelompok anak muda yang aktif di bidang IT, dan memiliki usaha serta organisasi
                         masing-masing. Untuk meningkatkan kompetensi dan daya saing, serta memberikan layanan yang lebih
                         baik, maka kami mensinergikan seluruh bidang usaha tersebut di bawah KPLI Banyumas dan kami beri
@@ -27,7 +27,7 @@
                             <a href="/#mailServer" class="list-menu">Main Server</a>
                         </li>
                         <li class="list-space">
-                            <a href="/#servis" class="list-menu">Software House</a>
+                            <a href="/#service" class="list-menu">Software House</a>
                         </li>
                     </nav>
                 </div>
@@ -49,16 +49,16 @@
             <div class="mx-auto d-flex flex-column flex-lg-row align-items-center footer-info-space gap-4">
                 <div class="d-flex align-items-center gap-4">
                     <a href="#" class="btn btn-circle btn-green">
-                        <i class="fab fa-whatsapp"></i>
+                        <i class="fab fa-whatsapp fa-2x"></i>
                     </a>
                     <a href="#" class="btn btn-circle btn-blue">
-                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-facebook-f fa-2x"></i>
                     </a>
                     <a href="#" class="btn btn-circle btn-red">
-                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-instagram fa-2x"></i>
                     </a>
                     <a href="#" class="btn btn-circle btn-yellow">
-                        <i class="fab fa-youtube"></i>
+                        <i class="fab fa-youtube fa-2x"></i>
                     </a>
                 </div>
                 <nav class="mx-auto d-flex flex-wrap align-items-center justify-content-center gap-4">

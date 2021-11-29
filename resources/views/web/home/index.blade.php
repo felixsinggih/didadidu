@@ -31,7 +31,7 @@
     <!-- end header -->
 
     <!-- benefit landscape -->
-    <section class="h-100 w-100 bg-light-blue" style="box-sizing: border-box">
+    <section class="h-100 w-100 bg-light-blue" style="box-sizing: border-box" id="service">
         <div class="benefit-landscape container-xxl mx-auto p-0  position-relative"
             style="font-family: 'Poppins', sans-serif">
             <div class="text-center title-text">
@@ -170,9 +170,6 @@
                                     <span class="cl-red">{{ 'Rp ' . number_format($item->price) }}</span>
                                     <span class="price-duration">/bln</span>
                                 </h2>
-                                <p class="price-caption">
-                                    {{ $item->caption }}
-                                </p>
                                 <div class="price-list">
                                     @foreach ($spec = explode(', ', $item->specs) as $item)
                                         <p class="d-flex align-items-center check">
@@ -219,9 +216,6 @@
                                     <span class="cl-red">{{ 'Rp ' . number_format($item->price) }}</span>
                                     <span class="price-duration">/bln</span>
                                 </h2>
-                                <p class="price-caption">
-                                    {{ $item->caption }}
-                                </p>
                                 <div class="price-list">
                                     @foreach ($spec = explode(', ', $item->specs) as $item)
                                         <p class="d-flex align-items-center check">

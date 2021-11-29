@@ -320,7 +320,7 @@ body {
 .btn-circle {
     height: 3rem;
     width: 3rem;
-    padding-top: 0.66rem;
+    padding-top: 0.45rem;
     padding-bottom: 0rem;
     padding-left: 0rem;
     padding-right: 0rem;
@@ -995,7 +995,7 @@ body {
 .pricing .price-value {
     font: 500 1.75rem Poppins, sans-serif;
     letter-spacing: 0.025em;
-    margin-bottom: 0.75rem;
+    margin-bottom: 1rem;
     color: #2e3a53;
 }
 
@@ -1006,10 +1006,10 @@ body {
 }
 
 .pricing .price-caption {
-    font: 400 1rem/1.5rem Poppins, sans-serif;
+    font: 400 0.75rem Poppins, sans-serif;
     letter-spacing: 0.025em;
-    margin-bottom: 2.5rem;
-    color: #c3c3c8;
+    margin-bottom: 1rem;
+    color: #888888;
 }
 
 .pricing .price-list .check {
